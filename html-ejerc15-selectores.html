@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tipos de selectores que entran en examen</title>
+        <style>
+            
+            .por-españa {color:red;
+            background-color: yellow;
+            }
+
+            #no-es-no {color:green;
+            background-color: yellow;
+            }
+
+            em {color:blueviolet;
+            background-color: rgb(4, 255, 171);
+            }
+
+            ol li {
+            color: rgb(0, 0, 255)
+            }
+
+            p:hover {background-color: yellow;}
+
+
+        </style>
+    </head>
+    <body>
+
+    <h1>Tipos de selectores que entran en examen</h1>
+
+    <ol>
+    <p><h2><li>Clase (class="")</h2></li></p>
+
+    <p>Los selectores de clase buscan un elemento basado en el contenido de su atributo class. 
+    El atributo class está definido como una lista de elementos separados por espacio, 
+    y uno de esos elementos debe coincidir exactamente con el nombre de clase dado en el selector.<br>
+    Ejemplo: Acabo de ver a Rafa Nadal ganar con <strong class="por-españa">España</strong>
+</p>
+
+    <p><h2><li>Identificador (id="")</h2></li></p>
+    <p>Los selectores de ID de CSS buscan un elemento basado en el contenido del atributo id. 
+    El atributo ID del elemento seleccionado debe coincidir exactamente con el valor dado en el selector.<br>
+    Ejemplo: Acabo de ver a Pedro Sanchez salir del <strong id="no-es-no">Falcón</strong>
+</p>
+
+    <p><h2><li>Todos los elementos (*)</h2></li></p>
+    <p>El selector universal funciona como un carácter comodín, seleccionando todos los elementos en una página.
+        Cada página HTML se basa en contenido colocado dentro de etiquetas HTML. 
+        Cada conjunto de etiquetas representa un elemento en la página.<br>
+        Por ejemplo: <em>*</em> se aplicará el estilo que elijas a todos los elementos
+
+    <p><h2><li>Varios elementos ( p, em, h1, h2)</h2></li></p>
+
+    <p>Este atributo sirve paraa aplicar una mismas modificaciones a distintos tipos de texto.<br>
+    Ejemplo: Me acabo de comer un buen <em>estofado</em>
+</p>
+        
+        
+    <p><h2><li>Elementos contenidos en otros elementos (ol li)</h2></li></p>
+    <p>Selecciona todos los elementos de la página cuya etiqueta HTML coincide con el valor del selector. 
+    Para utilizar este selector, solamente es necesario indicar el nombre de una etiqueta HTML (sin los caracteres <>) 
+    correspondiente a los elementos que se quieren seleccionar.<br>
+    Ejemplo:
+    <ol>
+        <li>Texto 1</li>
+        <li>Texto 2</li>
+    </ol>
+</p>
+
+    <p><h2><li>Sobrevuleo (p:hover)</h2></li></p>
+    <p>Selecciona todos los elementos de la página cuya etiqueta HTML coincide con el valor del selector. 
+    Para utilizar este selector, solamente es necesario indicar el nombre de una etiqueta HTML (sin los caracteres <>) 
+    correspondiente a los elementos que se quieren seleccionar.<br>
+    Ejemplo: He seleccionado todos las etiquetas p, por los cual, cuando pases el raton por encima se pondrán de color amarillo.
+
+</p>
+
+    </ol>
+    <p>
+
+    </p>
+
+    </body>
+</html>
