@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        
+        body {
+            padding: 0px;
+            margin: 0px;
+            width: 100vmax;
+            height: 1000px;
+            background-color: rgb(0, 195, 255);
+        }
+
+        #videos_propios {
+            height: 700px;
+            margin: 0 auto;
+            color: black;
+            background-color: rgba(0, 255, 234, 0.507);
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #videos_propios ul {
+            padding: 20px;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+        }
+
+        #videos_propios ul li {
+            margin-top: 40px;
+            margin: 15px;
+            list-style: none;
+        }
+
+        #videos_propios ul li video {
+            background-color: rgba(65, 105, 225, 0.397);
+            background-position: center;
+            border-radius: 0%;
+            border-style: solid;
+            padding: 10px;
+            transition-property: background-color;
+            transition-duration: 500ms;
+        }
+
+        #videos_propios ul li video:hover {
+            background-color: rgba(255, 0, 0, 0.562);
+        }
+
+        h2 {
+            padding: 20px;
+            font-size: xx-large;
+            font-family: 'Courier New';
+            font-weight: bold;
+            color: crimson;
+        }
+
+        p {
+            font-size: medium;
+            font-family: Arial, sans-serif;
+            color: black;
+            font-weight: 200;
+        }
+
+
+
+        
+        
+        
+        
+        
+        
+        #videos_youtube {
+            height: 700px;
+            margin: 0 auto;
+            color: black;
+            background-color: rgba(0, 247, 255, 0.507);
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #videos_youtube ul {
+            height: 600px;
+            display: flex;
+            justify-content: center;
+        }
+
+        #videos_youtube ul li {
+            margin-top: 40px;
+            margin: 15px;
+            list-style: none;
+        }
+
+        #videos_youtube ul li video {
+            background-color: rgba(0, 255, 234, 0.397);
+            background-position: center;
+            border-radius: 0%;
+            border-style: solid;
+            padding: 10px;
+            transition-property: background-color;
+            transition-duration: 500ms;
+        }
+
+        #videos_propios ul li video:hover {
+            background-color: rgba(195, 0, 255, 0.562);
+        }
+
+        h2 {
+            justify-self: center;
+            padding: 20px;
+            font-size: xx-large;
+            font-weight: bold;
+            font-family: 'Courier New';
+            color: currentColor;
+            transition-duration: 500ms;
+        }
+
+        h2:hover{
+            color: rgb(255, 0, 255);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        nav {
+            height: 100px;
+            margin: 0 auto;
+            color: black;
+            background-color: rgba(107, 0, 128, 0.507);
+            padding: 0px;
+            margin: 0px;
+        }
+
+        nav ul {
+            padding: 20px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-top: 40px;
+            margin: 15px;
+            list-style: none;
+        }
+
+        nav ul li a {
+            color: darkgreen;
+            text-decoration: none;
+            background-color: blanchedalmond;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: large;
+            font-weight: 300;
+        }
+
+        nav ul li a:hover {
+            color: brown;
+            background-color: darkkhaki;
+            border-radius: 0%;
+            padding: 5px;
+            transition: ease-in-out;
+            transition-duration: 500ms;
+        }
+    </style>
+</head>
+
+
+
+
+
+
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#videos_propios">Primeras vueltas F1 2020</a></li>
+            <li><a href="#videos_youtube">Presentación y analisis F1 2020</a></li>
+        </ul>
+    </nav>
+    <div id="videos_propios">
+        <h2>PRIMERAS VUELTAS F1 2020</h2>
+        <ul>
+            <li>
+                <video controls height="250" width="350">
+                    <source src="videos/mercedes.mp4" type="video/mp4">
+                </video>
+                <p>Son el coche a batir desde hace años y la verdad, el nuevo Mercedes W11 EQ Performance no tiene mala pinta... 
+                    Dicen los jefes del equipo que "aún queda mucho que hacer", pero no nos creemos ni una palabra hasta que no 
+                    le veamos sobre la pista. Valtteri Bottas y Lewis Hamilton (que este año podría igualar a Michael Schumacher 
+                    si consigue proclamarse campeón del mundo de nuevo) lo han presentado y conducido en el circuito de Silverstone, 
+                    aprovechando un día de grabación.
+                </p>
+            </li>
+            <li>
+                <video controls height="250" width="350">
+                    <source src="videos/ferrari.mp4" type="video/mp4">
+                </video>
+                <p>Ferrari fue el segundo en revelar su coche de Fórmula 1 para la temporada 2020. Y lo sabes: era uno de los modelos 
+                    más esperados. Le han llamado Ferrari SF1000 porque este año Ferrari se convertirá en el primer equipo en haber 
+                    participado en 1.000 carreras de F1. ¡Ahí queda eso!</p>
+            </li>
+            <li>
+                <video controls height="250" width="350">
+                    <source src="videos/redbull.mp4" type="video/mp4">
+                </video>
+                <p>Se llama Red Bull RB16, continúa estando propulsado por Honda y será el último en llevar el nombre de Aston Martin. 
+                    El magnate Lawrence Stroll, dueño de la escudería Racing Point F1 ha comprado la marca británica y rebautizará a 
+                    su equipo como Aston Martin Racing en 2021. </p>
+            </li>
+            <li>
+                <video controls height="250" width="350">
+                    <source src="videos/mclaren.mp4" type="video/mp4">
+                </video>
+                <p>Es una de las esperanzas de la parrilla, sin duda. ¿El motivo? Porque tras años de dramas, finalmente consiguió 
+                    escalar a la cuarta posición del Mundial de Constructores en 2019… algo que quizá no hubieran esperado ni en 
+                    sus mejores sueños. Su coche de F1 para 2020 se llama McLaren MCL35 y será el último en llevar motor Renault, 
+                    puesto que a partir de 2021 será un propulsor de origen Mercedes.</p>
+            </li>
+        </ul>
+        <div id="videos_youtube">
+            <h2>PRESENTACIÓN Y ANÁLISIS F1 2020</h2>
+            <ul>
+                <li>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/28sptR3UY90" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Siempre presionando para mejorar! 👊 Pero, ¿cómo encuentras ganancias cuando las regulaciones se han mantenido estables? 👀
+
+                        ¡James Allison analiza las áreas en las que nos hemos centrado con nuestro auto F1 2020!</p>
+                </li>
+                <li>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/7P36ePoegRo" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Descubriendo detalle a detalle, paso a paso, el nuevo Ferrari SF1000 2020, con el objetivo de 
+                        recortar esas decimas en el motor y en la aerodinamica respecto a Mercedes.
+                    </p>
+                </li>
+                <li>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/XvIByVkuFOs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>La pasión nunca disminuye, la búsqueda nunca termina. Aston Martin Red Bull Racing está listo 
+                        para una nueva temporada y le ofrece una pequeña visión del arduo trabajo y la dedicación de 
+                        nuestro equipo de récords mundiales antes de la nueva temporada de Fórmula 1.</p>
+                </li>
+                <li>
+                    <iframe width="420" height="315" src="https://youtube.com/embed/Ugzdq33klUA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>Después de meses de arduo trabajo, el equipo presentó con orgullo el McLaren MCL35 al mundo, llevando 
+                        a nuestros fanáticos a lo largo del viaje con nosotros. Vea el lanzamiento de nuestro automóvil Unboxed, 
+                        presentado por Hilton.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+</body>
+
+</html>
